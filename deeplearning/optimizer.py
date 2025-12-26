@@ -20,6 +20,7 @@ def search(up_step, down_step):
 
     if(up_acc > down_acc):
         if(res == up_step):
+            print(f"Optimal learning rate: {res}")
             return res      #we now know that optimal learning rate is in [up_step, up_step/2] here we assume that up_step is sufficiantly accurate - could run further search in this interval 
         res = up_step
         print(f"current:{res}")
