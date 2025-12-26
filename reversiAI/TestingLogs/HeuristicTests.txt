@@ -1,0 +1,3 @@
+10.05 12:03 countAllHeuristicBase tested, min/max, depth 2 Data on matchpoint
+10.05 14:15 cornerSideHeuristic test, min/max, depth 2, Data on matchpoint (Dq timeouts, more stonees, less wins)
+10.05 15: x modCornerSideHeuristicTest
