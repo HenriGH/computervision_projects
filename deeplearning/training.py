@@ -32,7 +32,7 @@ def train(lr = 0.001, epochs = 5):
 
 
     class MyNN(nn.Module):
-        #input layer -> fully connected layer -> fully connected layer -> output layer  (no activation functions because i dont see why, even tried relu but worse results...)
+        #input layer -> fully connected layer -> fully connected layer -> output layer  (no activation functions, tried relu but worse results...)
         def __init__(self):
             super().__init__()
             self.fc1 = nn.Linear(28*28, 128)
